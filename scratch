@@ -1,1 +1,4 @@
 #rough script attempt
+We will need the path to file, lets say a directory.
+Any OS should be able to compute the hash,
+This script will run all three hashes.
