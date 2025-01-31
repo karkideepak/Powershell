@@ -1,4 +1,8 @@
-#rough script attempt
-We will need the path to file, lets say a directory.
-Any OS should be able to compute the hash,
-This script will run all three hashes.
+Algorithm in pseudocode
+
+Set path to the file path.
+Set algorithms to a list containing 'MD5', 'SHA1', 'SHA256'.
+For each algorithm in algorithms:
+Calculate the hash of the file using Get-FileHash with the current algorithm.
+Select the Algorithm and Hash properties.
+Display the result.
