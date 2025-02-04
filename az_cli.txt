@@ -1,0 +1,81 @@
+Sure! Here's the updated README file without the asterisks:
+
+```markdown
+# Azure CLI PowerShell Commands for Beginners
+
+This repository provides a list of essential PowerShell commands used in Azure CLI for beginners, along with their purposes.
+
+## Commands
+
+### 1. Connect-AzAccount
+- Purpose: Logs you into your Azure account.
+- Example: `Connect-AzAccount`
+
+### 2. Get-AzSubscription
+- Purpose: Lists all subscriptions associated with your Azure account.
+- Example: `Get-AzSubscription`
+
+### 3. Set-AzContext
+- Purpose: Sets the current subscription context.
+- Example: `Set-AzContext -SubscriptionId <SubscriptionId>`
+
+### 4. Get-AzResourceGroup
+- Purpose: Lists all resource groups in your subscription.
+- Example: `Get-AzResourceGroup`
+
+### 5. New-AzResourceGroup
+- Purpose: Creates a new resource group.
+- Example: `New-AzResourceGroup -Name <ResourceGroupName> -Location <Location>`
+
+### 6. Get-AzVM
+- Purpose: Retrieves information about your Azure virtual machines.
+- Example: `Get-AzVM`
+
+### 7. New-AzVM
+- Purpose: Creates a new virtual machine.
+- Example: `New-AzVM -ResourceGroupName <ResourceGroupName> -Name <VMName> -Location <Location>`
+
+### 8. Start-AzVM
+- Purpose: Starts a stopped virtual machine.
+- Example: `Start-AzVM -ResourceGroupName <ResourceGroupName> -Name <VMName>`
+
+### 9. Stop-AzVM
+- Purpose: Stops a running virtual machine.
+- Example: `Stop-AzVM -ResourceGroupName <ResourceGroupName> -Name <VMName>`
+
+### 10. Remove-AzVM
+- Purpose: Deletes a virtual machine.
+- Example: `Remove-AzVM -ResourceGroupName <ResourceGroupName> -Name <VMName>`
+
+### 11. Get-AzStorageAccount
+- Purpose: Lists all storage accounts in your subscription.
+- Example: `Get-AzStorageAccount`
+
+### 12. New-AzStorageAccount
+- Purpose: Creates a new storage account.
+- Example: `New-AzStorageAccount -ResourceGroupName <ResourceGroupName> -Name <StorageAccountName> -Location <Location> -SkuName <SkuName>`
+
+### 13. Get-AzNetworkInterface
+- Purpose: Retrieves information about network interfaces.
+- Example: `Get-AzNetworkInterface`
+
+### 14. New-AzNetworkInterface
+- Purpose: Creates a new network interface.
+- Example: `New-AzNetworkInterface -ResourceGroupName <ResourceGroupName> -Name <NetworkInterfaceName> -Location <Location>`
+
+### 15. Get-AzPublicIpAddress
+- Purpose: Lists all public IP addresses in your subscription.
+- Example: `Get-AzPublicIpAddress`
+
+### 16. New-AzPublicIpAddress
+- Purpose: Creates a new public IP address.
+- Example: `New-AzPublicIpAddress -ResourceGroupName <ResourceGroupName> -Name <PublicIpName> -Location <Location>`
+
+## Contributing
+Feel free to contribute by adding more commands or improving the descriptions.
+
+## License
+This project is licensed under the MIT License.
+```
+
+You can now use this content for your GitHub repository's README file. If you need any further adjustments, just let me know!
