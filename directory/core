@@ -1,0 +1,8 @@
+Get-ChildItem	dir, ls, gci	Retrieves files and folders in a specified or current location.
+Set-Location	cd, chdir	Sets the current working directory location.
+Get-Location	pwd	Displays the current directory location.
+New-Item	mkdir	Creates a new file or directory.
+Remove-Item	rm, del	Deletes a specified item (file or folder).
+Copy-Item	copy	Copies an item from one location to another.
+Move-Item	move	Moves an item from one location to another.
+Rename-Item	ren	Renames a specified item.
