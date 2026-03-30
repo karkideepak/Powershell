@@ -1,0 +1,5 @@
+let timeOffset = 7d;
+let discardEventID = 4688;
+SecurityEvent
+| where TimeGenerated > ago(timeOffset*2) and TimeGenerated < age (timeOffset)
+| where EventId != discardEventID
