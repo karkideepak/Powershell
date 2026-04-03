@@ -1,1 +1,8 @@
+#check network info
 ipconfig /all
+
+#trace network route
+tracert example.com
+
+#dns lookup
+nslookup google.com
