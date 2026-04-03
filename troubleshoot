@@ -9,3 +9,6 @@ nslookup google.com
 
 #view active connections
 netstat -ano
+
+#force stop processes
+taskkill /pid 1234 /f
