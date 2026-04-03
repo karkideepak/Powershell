@@ -6,3 +6,6 @@ tracert example.com
 
 #dns lookup
 nslookup google.com
+
+#view active connections
+netstat -ano
