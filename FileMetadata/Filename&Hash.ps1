@@ -1,5 +1,4 @@
-
-# List the filename and hashes of all files in the directory
+# Enumerates all files under the current directory
 
 Get-ChildItem -Recurse -File |
   Get-FileHash |
