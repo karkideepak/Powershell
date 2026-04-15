@@ -1,1 +1,6 @@
-
+Get-Item
+$file = Get-Item "pathToFile"
+$file.length
+$file.CreationTime
+$file.LastWriteTime
+$file.IsReadOnly
