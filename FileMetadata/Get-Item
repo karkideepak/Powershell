@@ -1,5 +1,6 @@
 Get-Item
 $file = Get-Item "pathToFile"
+# after retrieving the data
 $file.length
 $file.CreationTime
 $file.LastWriteTime
